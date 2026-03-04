@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "neon-browser"
+version = "1.0.0"
+description = "A browsing engine with web scraping built in by default"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Neon Contributors" }
+]
+keywords = ["web-scraping", "browser", "playwright", "scraping", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+dependencies = [
+    # HTTP layer
+    "httpx>=0.27",
+    # HTML parsing
+    "lxml>=5.0",
+    "cssselect>=1.2",
+    # Markdown conversion
+    "markdownify>=0.12",
+    # CLI & terminal
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+browser = [
+    "playwright>=1.44",
+]
+all = [
+    "playwright>=1.44",
+    "markdownify>=0.12",
+]
+
+[project.scripts]
+neon = "neon.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/neon-browser/neon"
+Documentation = "https://github.com/neon-browser/neon#readme"
+Issues = "https://github.com/neon-browser/neon/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["neon*"]
