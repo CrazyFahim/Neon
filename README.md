@@ -1,6 +1,6 @@
 # ⚡ Neon — Browsing Engine
 
-> A Python browsing engine that does **web scraping by default**.  
+> A Python **web scraping framework.** 
 > Inspired by [Scrapling](https://github.com/D4Vinci/Scrapling), [Playwright](https://playwright.dev/), and [Firecrawl](https://firecrawl.dev/).
 
 ## Demo
