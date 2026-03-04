@@ -3,6 +3,10 @@
 > A Python browsing engine that does **web scraping by default**.  
 > Inspired by [Scrapling](https://github.com/D4Vinci/Scrapling), [Playwright](https://playwright.dev/), and [Firecrawl](https://firecrawl.dev/).
 
+## Demo
+
+![Neon Interactive Shell Demo](./demo.svg)
+
 ---
 
 ## Features
