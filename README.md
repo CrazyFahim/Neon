@@ -1,4 +1,4 @@
-# ⚡ Neon — Browsing Engine
+# ⚡ Neon
 
 > A Python **web scraping framework.** 
 > Inspired by [Scrapling](https://github.com/D4Vinci/Scrapling), [Playwright](https://playwright.dev/), and [Firecrawl](https://firecrawl.dev/).
