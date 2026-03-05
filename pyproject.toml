@@ -48,9 +48,7 @@ all = [
 neon = "neon.cli:cli"
 
 [project.urls]
-Homepage = "https://github.com/neon-browser/neon"
-Documentation = "https://github.com/neon-browser/neon#readme"
-Issues = "https://github.com/neon-browser/neon/issues"
+About = "https://github.com/CrazyFahim/Neon"
 
 [tool.setuptools.packages.find]
 where = ["."]
